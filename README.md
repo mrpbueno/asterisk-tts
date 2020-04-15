@@ -1,17 +1,12 @@
 # asterisk-tts
 
-------------
-Instalação
-------------
-
+## Instalação
 `cd /usr/src/`  
 `git clone https://github.com/mrpbueno/asterisk-tts.git`  
 `cp asterisk-tts/agi-bin/*.php /var/lib/asterisk/agi-bin`  
 `fwconsole chown`  
 
-------------
-Teste
-------------
+## Teste
 Adicionar no arquivo `/etc/asterisk/extensions_custom.conf`  
 
 `exten => 1234,1,Answer`  
