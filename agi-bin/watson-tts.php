@@ -1,15 +1,11 @@
 #!/usr/bin/env php
 <?php
 
-/**
-https://github.com/mrpbueno/asterisk-tts/blob/master/README.md#antes-de-come%C3%A7ar
-**/
-
-// API key:
+// API key: https://github.com/mrpbueno/asterisk-tts/blob/master/README.md#antes-de-come%C3%A7ar
 $tts_apikey = "TEXT_TO_SPEECH_APIKEY";
-// URL:
+// URL: https://github.com/mrpbueno/asterisk-tts/blob/master/README.md#antes-de-come%C3%A7ar
 $tts_url = "TEXT_TO_SPEECH_URL";
-// Voice:
+// Voice: https://cloud.ibm.com/docs/text-to-speech?topic=text-to-speech-voices#languageVoices
 $tts_voice = "pt-BR_IsabelaV3Voice";
 
 include_once "phpagi.php";
