@@ -28,4 +28,5 @@ Adicionar no arquivo `/etc/asterisk/extensions_custom.conf`
 `exten => 4567,n,agi(google-tts.php,"Este é o mecanismo de conversão de texto em voz do Google.")`  
 `exten => 4567,n,Goto(app-blackhole,hangup,1)`  
 
-Após salvar o arquivo recarregue as configurações `fwconsole reload`  
+Após salvar o arquivo recarregue as configurações:  
+`fwconsole reload`  
