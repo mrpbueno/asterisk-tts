@@ -1,8 +1,11 @@
 #!/usr/bin/env php
 <?php
 
+// API key:
 $tts_apikey = "TEXT_TO_SPEECH_APIKEY";
+// URL:
 $tts_url = "TEXT_TO_SPEECH_URL";
+// Voice:
 $tts_voice = "pt-BR_IsabelaV3Voice";
 
 include_once "phpagi.php";
