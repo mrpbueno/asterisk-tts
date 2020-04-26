@@ -1,6 +1,10 @@
 #!/usr/bin/env php
 <?php
 
+/**
+https://github.com/mrpbueno/asterisk-tts/blob/master/README.md#antes-de-come%C3%A7ar
+**/
+
 // API key:
 $tts_apikey = "TEXT_TO_SPEECH_APIKEY";
 // URL:
