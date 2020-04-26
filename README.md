@@ -11,7 +11,7 @@ Copie os valores de API Key e URL.
 ## Instalação
 `cd /usr/src/`  
 `git clone https://github.com/mrpbueno/asterisk-tts.git`  
-`cp asterisk-tts/agi-bin/*.php /var/lib/asterisk/agi-bin` 
+`cp asterisk-tts/agi-bin/*.php /var/lib/asterisk/agi-bin`   
 Adicione as suas credenciais do serviço do Text to Speech no arquivo:  
 `/var/lib/asterisk/agi-bin/watson-tts.php`  
 Ajuste as permissões dos arquivos  
