@@ -1,9 +1,18 @@
 # asterisk-tts
 
+## Antes de começar
+Acesse a página [Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) no catálogo do IBM Cloud.  
+Inscreva-se para obter uma conta gratuita do IBM Cloud ou efetue login.  
+Clique em Criar.  
+Na [Lista de recursos do IBM Cloud](https://cloud.ibm.com/resources), clique em sua instância de serviço do Text to Speech e acesse a página do painel de serviço do Text to Speech.  
+Na página Gerenciar, clique em Mostrar para visualizar suas credenciais.  
+Copie os valores de API Key e URL.  
+
 ## Instalação
 `cd /usr/src/`  
 `git clone https://github.com/mrpbueno/asterisk-tts.git`  
-`cp asterisk-tts/agi-bin/*.php /var/lib/asterisk/agi-bin`  
+`cp asterisk-tts/agi-bin/*.php /var/lib/asterisk/agi-bin` 
+Adicione as suas credenciais do serviço do Text to Speech no arquivo `/var/lib/asterisk/agi-bin/watson-tts.php`
 `fwconsole chown`  
 
 ## Teste
